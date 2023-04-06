@@ -1,0 +1,22 @@
+@import 'components/card2.css';
+h1 {
+  color: rgba(0,0,0,0.9);
+  font-size: 24px;
+  text-align: center;
+}
+
+ h3 {
+  margin:0;
+  padding:4px;
+  font-size:15px;
+  text-align: center;
+  }
+
+
+
+p {
+  margin:0;
+  padding:10px;
+  font-size:15px;
+  text-align: center;
+  }

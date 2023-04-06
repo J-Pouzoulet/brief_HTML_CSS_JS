@@ -1,0 +1,48 @@
+.card {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px 8px 8px 8px;
+  border-color: rgba(0, 0, 0, 1);
+  background: rgba(255, 255, 255, 1);
+  margin: 5px auto 
+}
+
+.card-img > img {
+  width: 600px;
+  justify-content: center;
+  border-radius: 8px 8px 8px 8px;
+  flex-grow:1;
+}
+
+.card-content {
+  display: flex;
+  height: 100px;
+  flex-grow:2;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px auto; 
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-top: 0.5rem;
+}
+
+.input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+}
